@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "CAN 2024",
+    "slug": "can-2024",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "src/assets/expo/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "src/assets/expo/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "src/assets/expo/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "src/assets/expo/favicon.png"
+    }
+  }
+}

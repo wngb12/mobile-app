@@ -1,0 +1,15 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+
+    // Path alias config
+    "baseUrl": ".",
+      "paths": {
+        "@*": ["src/*"],
+        "@components/*": ["src/components/*"],
+        "@screens/*": ["src/screens/*"],
+        "@icons/*": ["src/assets/icons/*"],
+      }
+  },
+}

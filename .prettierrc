@@ -1,0 +1,7 @@
+{
+  "singleAttributePerLine": true,
+  "pluginSearchDirs": false,
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ]
+}
